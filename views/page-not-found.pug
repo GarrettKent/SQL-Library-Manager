@@ -1,0 +1,8 @@
+extends layout.pug
+block content
+  h1= error
+  p Sorry! We couldn't find the page you were looking for.
+  p= error.status
+  br
+  p
+    a.button(href='/books') Home
